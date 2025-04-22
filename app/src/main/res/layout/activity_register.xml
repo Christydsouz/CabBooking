@@ -42,7 +42,9 @@
             android:layout_marginTop="20sp"
             android:background="#FFFFFF"
             android:ems="10"
+            android:textColor="@color/black"
             android:hint="Username"
+            android:textColorHint="@color/black"
             android:padding="10dp" />
 
         <EditText
@@ -52,7 +54,9 @@
             android:layout_marginTop="20sp"
             android:background="#FFFFFF"
             android:ems="10"
+            android:textColor="@color/black"
             android:hint="Phone number"
+            android:textColorHint="@color/black"
             android:inputType="phone"
             android:padding="10sp" />
 
@@ -70,7 +74,9 @@
                 android:layout_marginRight="10sp"
                 android:background="#FFFFFF"
                 android:ems="10"
+                android:textColorHint="@color/black"
                 android:enabled="true"
+                android:textColor="@color/black"
                 android:hint="Birthdate"
                 android:inputType="date"
                 android:padding="10sp"
@@ -98,13 +104,15 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:checked="true"
-                android:text="Male" />
+                android:text="Male"
+                android:textColor="@color/black"/>
 
             <RadioButton
                 android:id="@+id/registerFemaleRadioBtn"
                 android:layout_width="150dp"
                 android:layout_height="match_parent"
-                android:text="Female" />
+                android:text="Female"
+                android:textColor="@color/black"/>
         </RadioGroup>
 
         <RadioGroup
@@ -120,13 +128,15 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:checked="true"
-                android:text="Customer" />
+                android:text="Customer"
+                android:textColor="@color/black"/>
 
             <RadioButton
                 android:id="@+id/registerDriverRadioBtn"
                 android:layout_width="150dp"
                 android:layout_height="match_parent"
-                android:text="Driver" />
+                android:text="Driver"
+                android:textColor="@color/black"/>
         </RadioGroup>
 
         <RadioGroup
@@ -142,13 +152,15 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:checked="true"
-                android:text="car" />
+                android:text="car"
+                android:textColor="@color/black"/>
 
             <RadioButton
                 android:id="@+id/registerBikeRadioBtn"
                 android:layout_width="150dp"
                 android:layout_height="match_parent"
-                android:text="bike" />
+                android:text="bike"
+                android:textColor="@color/black"/>
         </RadioGroup>
 
         <EditText
@@ -159,9 +171,12 @@
             android:background="#FFFFFF"
             android:ems="10"
             android:enabled="true"
+            android:textColor="@color/black"
             android:hint="Vehicle plate number"
+            android:textColorHint="@color/black"
             android:padding="10sp"
-            android:visibility="invisible" />
+            android:visibility="invisible"
+            />
 
         <Button
             android:id="@+id/registerFinalRegisterBtn"

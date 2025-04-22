@@ -12,7 +12,7 @@ public class DriverLocation {
     private Double currentPositionLatitude;
     private Double currentPositionLongitude;
 
-    public DriverLocation(){
+    public DriverLocation() {
 
     }
 

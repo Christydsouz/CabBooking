@@ -42,8 +42,10 @@
             android:background="#FFFFFF"
             android:ems="10"
             android:hint="Email"
+            android:textColorHint="@color/black"
             android:inputType="textEmailAddress"
-            android:padding="10dp" />
+            android:padding="10dp"
+            android:textColor="@color/black"/>
 
         <EditText
             android:id="@+id/registerFinalPasswordEditText"
@@ -52,6 +54,8 @@
             android:layout_marginTop="20sp"
             android:background="#FFFFFF"
             android:ems="10"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
             android:hint="Password"
             android:inputType="textPassword"
             android:padding="10dp" />

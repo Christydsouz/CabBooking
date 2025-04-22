@@ -15,6 +15,7 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        resValue "string", "google_maps_key", "AIzaSyAu03dOfP7lunkmA9r9-WL9tv4w49tV22s"
     }
 
     buildTypes {
@@ -24,8 +25,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility=JavaVersion.VERSION_1_8
+        targetCompatibility=JavaVersion.VERSION_1_8
     }
     buildToolsVersion '33.0.1'
 }
@@ -46,6 +47,7 @@ dependencies {
     implementation 'com.google.maps.android:android-maps-utils:2.2.0'
     implementation 'com.google.maps.android:maps-utils-ktx:2.2.0'
     implementation 'com.google.firebase:firebase-storage:20.1.0'
+    implementation 'com.google.android.gms:play-services-maps:18.2.0'
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.4'
